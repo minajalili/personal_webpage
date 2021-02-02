@@ -2,10 +2,7 @@
     box-sizing: border-box;
     margin: 0;
 }
-.col-md-2,
-.col-lg-2{
-    width: 19% !important;
-}
+
 body {
     margin: 0;
     font-family: Garamond, serif !important;
