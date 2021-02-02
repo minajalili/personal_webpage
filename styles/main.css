@@ -2,6 +2,10 @@
     box-sizing: border-box;
     margin: 0;
 }
+.col-md-2,
+.col-lg-2{
+    width: 19% !important;
+}
 body {
     margin: 0;
     font-family: Garamond, serif !important;
@@ -47,13 +51,22 @@ main{
     .contact-item{
         width: 40% !important;
     }
+    .work{
+        width: 60%;
+    }
+    .home-content{
+        margin: 1rem 1rem;
+    }
+    .contact-item__icon{
+        padding-right: 3rem;
+    }
   }
 .main-nav {
     display: flex;
     flex-direction: column;
 }
 .main-nav__socialMedia{
-    margin-top: 19rem;
+    margin-top: 17rem;
     padding: 0;
     list-style: none;
     display: flex;
@@ -110,9 +123,7 @@ main{
     background: rgba(0, 0, 0, 0.493);
     z-index: 2;
     border-radius: 2px;
-    position: absolute;
-    margin: 1rem 1rem;
-   
+    position: absolute;  
 }
 .home-about{
     padding: 1rem;
@@ -182,6 +193,9 @@ main{
     transition: all 1s ease 0s;
     transform: rotateY(360deg);
 }
+.skill-name{
+    font-size: 0.8rem;
+}
 #experience{
     width: 100%;
     height: auto;
@@ -199,7 +213,7 @@ main{
     flex-direction: column;
 }
 .work{
-    width: 60%;
+    
     border-bottom: 1px solid grey;
     border-radius: 2px;
     margin:3%;
@@ -250,7 +264,7 @@ main{
 }
 .contact-items{
     display: flex; 
-    width: 90vw;
+    /* width: 90vw; */
     flex-wrap: wrap;
     justify-content: center;   
     padding: 5%;
@@ -271,7 +285,6 @@ main{
 }
 .contact-item__icon{
     font-size: 3.5rem;
-    padding-right: 3rem;
     color: #387b75;
 }
 .contact-item__info{
